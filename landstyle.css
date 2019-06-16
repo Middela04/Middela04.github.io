@@ -1,0 +1,56 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("https://img1.akspic.com/image/57815-superman-close_up-darkness-superman_logo-comics-1920x1080.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+header.startup h1 {
+  font-size: 2rem;
+  color: white; 
+  text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: purple;
+  border-color: black;
+  shape-rendering: crispEdges;
+ }
+
+.btn-primary:hover {
+  background-color: purple;
+  border-color: white;
+  border-width: 5px;
+  cursor: pointer;
+}
